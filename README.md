@@ -102,4 +102,31 @@ http://localhost:8080/swagger-ui.html
 
 ---
 
+## 📂 Estrutura Inicial de Diretórios
+
+```
+mini-corretora/
+├── gateway-service/
+│   └── src/main/java/... (Spring Cloud Gateway)
+├── auth-service/
+│   └── src/main/java/... (JWT Auth)
+├── user-service/
+│   └── src/main/java/... (Cadastro e saldo)
+├── portfolio-service/
+│   └── src/main/java/... (Carteira de investimentos)
+├── trade-service/
+│   └── src/main/java/... (Ordens de compra e venda)
+├── quote-service/
+│   └── src/main/java/... (Simulação de preços)
+├── notification-service/
+│   └── src/main/java/... (Envio de notificações)
+├── docker-compose.yml
+├── README.md
+├── docs/ (Diagramas, specs)
+└── tests/ (Postman, scripts de teste)
+```
+
+
+---
+
 > Projeto desenvolvido para fins de estudo e prática com microserviços, Kafka e sistemas financeiros.
