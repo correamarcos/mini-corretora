@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: quote-service
+
+  kafka:
+    bootstrap-servers: kafka:9092
+    admin:
+      auto-create: true
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
